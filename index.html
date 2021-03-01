@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graduation countdown</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href = "style.css">
+
+</head>
+<body>
+
+<p id="time"></p>
+
+<article class ="box">
+<article class="box-body">
+        <h5 class="box-title">Enter Your Graduation Date</h5>
+        Graduation Day
+        <input type="date" id = "dateInput" onchange="dateFunction()">
+        will be
+        <p id = "days"></p>
+</article>
+</article>
+
+<script src="myJS.js"></script>
+<script src="lib/moment/moment.min.js"></script>
+</body>
+</html>
